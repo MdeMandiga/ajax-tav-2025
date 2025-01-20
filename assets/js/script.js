@@ -9,7 +9,7 @@ $.ajax({
     success: function(respuesta){
         document.write('respuesta')
     },
-    error: function(){
+    error: function(error){
         document.write(error)
     }
 });
