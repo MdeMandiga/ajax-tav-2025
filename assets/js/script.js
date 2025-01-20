@@ -15,4 +15,16 @@ $.ajax({
 });
 
 // funcion get
+$.get({
+    url: './gato.html',
+    dataType: 'html',
+    success: function(respuesta){
+        document.getElementById('frame').innerHTML = respuesta
+    },
+    error: function() {
+        document.write('no se encontro el archivo')
+    }
+
+});
+        
 
