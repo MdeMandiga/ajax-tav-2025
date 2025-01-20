@@ -19,7 +19,7 @@ $.get({
     url: './gato.html',
     dataType: 'html',
     success: function(respuesta){
-        document.getElementById('frame').innerHTML = respuesta
+        document.getElementById('iframe').innerHTML = respuesta
     },
     error: function() {
         document.write('no se encontro el archivo')
