@@ -22,7 +22,7 @@ $.get({
         document.getElementById('iframe').innerHTML = respuesta
     },
     error: function() {
-        document.write('no se encontro el archivo')
+        alert('no se encontro el archivo')
     }
 
 });
